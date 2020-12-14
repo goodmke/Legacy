@@ -12,7 +12,7 @@ options.add_argument("--headless")
 
 # gets the website
 driver = webdriver.Chrome("C:\Program Files (x86)\chromedriver.exe" , chrome_options=options)
-driver.get("https://www.legacyhomesal.com/pennington-freedom-series-richmond-ii")
+driver.get("https://www.legacyhomesal.com/ENTER THE REST OF YOUR ADDRESS HERE FOR YOUR DESIRED MODEL")
 
 # finds the Base Price header
 price = driver.find_element_by_xpath("//h3[@class='ng-binding']")
@@ -99,8 +99,7 @@ else:
     driver.find_element_by_xpath('//*[@id="input_1"]').send_keys(Keys.RETURN)
     time.sleep(1)
     driver.find_element_by_xpath('//*[@id="input_2"]').send_keys('The Richmond II price has gone up! '
-                                                                 'https://www.legacyhomesal.com/pennington-freedom'
-                                                                 '-series-richmond-ii', 'Your equity is: $', r- INPUT INITIAL INVESTMENT)
+                                                                 'https://www.legacyhomesal.com/ENTER THE REST OF YOUR ADDRESS HERE FOR YOUR DESIRED MODEL', 'Your equity is: $', r- INPUT INITIAL INVESTMENT)
     driver.find_element_by_xpath('//*[@id="input_2"]').send_keys(Keys.RETURN)
     time.sleep(2)
     driver.quit()
